@@ -1,0 +1,231 @@
+header {
+  height: 44px;
+  line-height: 44px;
+  border-bottom: 1px solid #e1e1e1;
+}
+.header-title-text {
+  font-size: 17px;
+}
+
+.mentors {
+  padding-bottom: 15px;
+  border-bottom: 5px solid #e1e1e1;
+}
+.mentors-title {
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.mentors-title-text {
+  font-size: 15px;
+}
+.mentors-title-more {
+  font-size: 12px;
+  color: #919191;
+}
+
+.hotTopic {
+  padding: 15px;
+  border-bottom: 5px solid #e1e1e1;
+}
+.hotTopic-title-text {
+  font-size: 15px;
+}
+.hotTopic-subject-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 15px;
+}
+.hotTopic-subject-group img {
+  width: 150px;
+}
+
+.tabs-items {
+  width: 100%;
+  height: 32px;
+  line-height: 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 15px;
+  transition: box-shadow .3s;
+}
+.tabs-items.fixed {
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  background: #fff;
+  box-shadow: 0 2px 10px #d0d0d0;
+}
+.tabs-items-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.tabs-items-group:last-child {
+  padding-right: 15px;
+}
+.tabs-items-help {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tabs-items-help span {
+  display: inline-block;
+  min-width: 104px;
+  height: 32px;
+  background: url("/forum/images/forum/emotion-help-icon.png") no-repeat center center;
+  background-size: 100%;
+}
+.tabs-items-group-text {
+  transition: color .3s;
+}
+.tabs-items-group-text.active {
+  color: #fdae29;
+}
+.tabs-items-group-line {
+  display: inline-block;
+  width: 40px;
+  height: 2px;
+  background: transparent;
+  border-radius: 1px;
+  transition: background .3s;
+}
+.tabs-items-group-line.active {
+  background: #fdae29;
+}
+
+.tabs-contents {
+  padding: 0 15px;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.tabs-contents-item {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.tabs-contents-item .user {
+  padding: 0 15px;
+}
+.tabs-contents-item.scroll {
+  overflow-y: hidden;
+}
+.tabs-contents-item.scroll::-webkit-scrollbar {
+  display: none;
+}
+.tabs-contents .user {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  border-bottom: 1px solid #f0f0f0;
+  padding-top: 15px;
+}
+
+/* Start: 热门提问 */
+.user-avatar {
+  display: inline-block;
+  min-width: 32px;
+  height: 32px;
+  background: url("/forum/images/common/avatar.png") no-repeat center center;
+  background-size: 100%;
+}
+.user-content {
+  padding-left: 10px;
+  padding-bottom: 15px;
+}
+.user-content-username_topic {
+  padding-bottom: 2px;
+}
+.user-content-username {
+  padding-right: 15px;
+  font-size: 12px;
+  color: #616161;
+}
+.user-content-topic {
+  font-size: 12px;
+  color: #fdae29;
+}
+.user-content-topic .topic-icon {
+  display: inline-block;
+  min-width: 12px;
+  height: 12px;
+  background: url("/forum/images/common/topic-icon.png") no-repeat center center;
+  background-size: 100%;
+  margin-right: 5px;
+}
+.user-content-date_time span {
+  font-size: 12px;
+  color: #919191;
+}
+.user-content-question {
+  padding: 10px 0;
+  font-size: 14px;
+}
+.user-content-question-full {
+  padding: 10px 0;
+  padding-bottom: 0;
+  font-size: 14px;
+  color: #616161;
+}
+.user-content-reply {
+  border-radius: 5px;
+  background: #f5f5f7;
+  padding: 10px;
+}
+.user-content-reply-mentor {
+  padding-bottom: 10px;
+  font-size: 14px;
+  color: #313131;
+}
+.user-content-reply-mentor-name {
+  float: left
+}
+span.user-content-reply-mentor-name {
+  font-size: 14px;
+  color: #fdae29;
+}
+.user-content-reply-all {
+  font-size: 12px;
+  color: #fdae29;
+  padding: 10px 0;
+  padding-top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.user-content-reply-all-text {
+  padding-right: 5px;
+}
+.user-content-reply-all-icon {
+  display: inline-block;
+  min-width: 11px;
+  height: 6px;
+  background: url("/forum/images/common/pull-down-icon.png") no-repeat center center;
+  background-size: 100%;
+  transition: all .3s;
+}
+.user-content-reply-all-icon.rotate {
+  transform: rotate(180deg);
+}
+.user-content-reply-more {
+  font-size: 12px;
+  color: #919191;
+}
+.tabs-contents-loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 0;
+  font-size: 14px;
+  color: #61616;
+}
+.tabs-contents-loading-icon {
+  margin-right: 10px;
+}
+/* End: 热门提问 */
