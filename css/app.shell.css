@@ -1,0 +1,16 @@
+.header-search {
+  height: 45px;
+  position: absolute;
+  top: 0;
+  left: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-search-icon {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  background: url('/forum/images/forum/icon-search.png') no-repeat center center;
+  background-size: 100%;
+}

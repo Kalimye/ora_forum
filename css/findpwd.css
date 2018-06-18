@@ -1,0 +1,47 @@
+/**
+ * 找回密码和重设密码样式表
+ * @filename findpwd.css
+ * @author rf.wangchn@gmial.com
+*/
+
+.findpwd {
+	width: 100%;
+	padding-top: 60px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.findpwd input { padding: 0 20px; }
+.findpwd-verificationCode {
+  width: 266px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-bottom: 25px;
+}
+.findpwd-verificationCode input { width: 90px; margin: 0; padding: 0 20px; }
+.findpwd-verificationCode-btn {
+  width: 100px;
+	height: 37px;
+	line-height: 37px;
+	padding: 0 10px;
+	border: 1px solid transparent;
+	border-radius: 19px;
+	background: #ffb600;
+	color: #fff;
+	transition: all .3s;
+}
+.findpwd-verificationCode-btn.unclickable { background: #d3d3d3; }
+.findpwd-verificationCode-btn:focus { outline: none; }
+
+.findpwd-btn {
+	width: 246px;
+  height: 37px;
+	line-height: 37px;
+	border: none;
+	border-radius: 19px;
+	background: #ffb600;
+	color: #fff;
+}
+.findpwd-btn:focus { outline: none; }

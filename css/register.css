@@ -1,0 +1,83 @@
+/**
+ * 注册模块样式表
+ * register.css
+ * @author rf.wangchn@gmail.com
+*/
+.welcome .register-bg {
+  height: 74px;
+	background: url('../images/register/bg.jpg') no-repeat center center;
+	background-size: cover;
+}
+.welcome .register-container {
+  padding-top: 104px;
+}
+
+.welcome .register-container input {
+	width: 229px;
+  padding: 0 20px;
+}
+
+/* 获取验证码 */
+.welcome .register-container-verificationCode {
+	width: 269px;
+  display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.welcome .register-container-verificationCode input {
+  width: 120px;
+}
+.welcome .register-container-verificationCode-btn {
+  display: inline-block;
+	width: 80px;
+	height: 37px;
+	line-height: 37px;
+	padding: 0 10px;
+	border: 1px solid transparent;
+	border-radius: 19px;
+	background: #ffb600;
+	color: #fff;
+	margin-bottom: 25px;
+	transition: background .3s;
+}
+.welcome .register-container-verificationCode-btn.unclickable {
+	background: #d3d3d3;
+	width: 80px;
+}
+
+/* 性别 */
+.welcome .register-container-sex {
+	width: 229px;
+  display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	color: #919191;
+	padding-bottom: 25px;
+}
+.welcome .register-container-sex-group {
+  display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	margin-right: 20px;
+}
+.welcome .register-container-sex .text {
+  padding-right: 5px;
+}
+.welcome .register-container-sex .icon {
+  display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 11px;
+	height: 11px;
+	border: 1px solid #d3d3d3;
+	border-radius: 50%;
+}
+.welcome .register-container-sex .icon-inner {
+  display: inline-block;
+	width: 5px;
+	height: 5px;
+	background: #ffb600;
+	border-radius: 50px;
+	border: 2px solid transparent;
+}
+.welcome .register-container-sex .icon-inner.hidden { display: none; }

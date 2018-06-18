@@ -1,0 +1,77 @@
+/**
+ * 登陆模块样式表
+ * login.css
+ * @author rf.wangchn@gmail.com
+*/
+
+/* Note: 公共样式见 app.css */
+.welcome .login-bg {
+	height: 150px;
+	background: url('../images/login/bg.png') no-repeat center center;
+	background-size: cover;
+}
+
+/* Node: 公共样式见 app.css */
+.welcome .login-container { padding-top: 205px; }
+.welcome .login-container-input {
+  position: relative;
+	top: 0;
+	left: 0;
+}
+.welcome .login-container-input-icon {
+  position: absolute;
+	top: 10px;
+	left: 10px;
+	width: 16px;
+	height: 18px;
+}
+.welcome .login-container-email-icon {  /* email 图标*/
+  background: url('../images/login/icon_email.png') no-repeat center center;
+	background-size: contain;
+}
+.welcome .login-container-pwd-icon {
+  background: url('../images/login/icon_pwd.png') no-repeat center center;
+	background-size: contain;
+}
+
+.welcome .login-container-verificationCode {
+	width: 271px;
+  display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-bottom: 25px;
+}
+.welcome input.login-container-verificationCode-input {
+	width: 80px;
+	margin: 0;
+}
+
+.welcome .login-container-loginBtn {
+  width: 269px;
+	height: 39px;
+	padding-bottom: 5px;
+}
+.welcome .login-container-loginBtn button {
+	width: 100%;
+	height: 39px;
+  line-height: 39px;
+	border: none;
+	border-radius: 19px;
+	background: #ffb600;
+  color: #fff;
+	font-size: 16px;
+	transition: background .3s;
+}
+.welcome .login-container-loginBtn button:focus {
+	outline: none;
+}
+
+.welcome .login-container-extraInfo {
+	width: 251px;
+	padding: 0 20px;
+  display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: #d2d2d2;
+	font-size: 14px;
+}

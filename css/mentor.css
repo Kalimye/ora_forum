@@ -1,0 +1,183 @@
+/**
+ * 导师页样式表
+ * mentor.css
+ * @author rf.wangchn@gmail.com
+*/
+
+/* 页面头部 */
+.mentor {
+  height: 100vh;
+	overflow-y: scroll;
+}
+.mentor header {
+  position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 3;
+	width: 100%;
+	background: #fff;
+}
+.mentor .header-back {
+  height: 44px;
+	line-height: 44px;
+	position: absolute;
+	top: 0;
+	left: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.mentor .header-back-icon {
+  display: inline-block;
+	width: 10px;
+	height: 18px;
+	background: url('../images/common/icon-back.png') no-repeat center center;
+	background-size: 100%;
+}
+
+.mentor-main {
+  padding: 30px 15px;
+}
+
+.mentor-main-item {
+  padding: 10px 0;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	margin: 10px 0;
+}
+.mentor-main-item:nth-child(1) { padding-top: 30px; }
+
+.mentor-main-item-avatar {  /* 导师头像 */
+  display: inline-block;
+	width: 70px;
+	height: 70px;
+	margin-right: 20px;
+}
+
+.mentor-main-item-detail-mentorinfo {
+  display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	padding-bottom: 5px;
+}
+.mentor-main-item-detail-mentorinfo .name {  /* 导师姓名 */
+  font-size: 16px;
+	color: #313131;
+	padding-right: 7px;
+}
+
+.mentor-main-item-detail-mentorinfo .icon-jewel {  /* 钻石图标 */
+  display: inline-block;
+	width: 13px;
+	height: 11px;
+	background: url('../images/mentors/icon-jewel.png') no-repeat center center;
+	background-size: 100%;
+	margin-right: 15px;
+}
+
+.mentor-main-item-detail-mentorinfo .icon-hearts {  /* 小心心图标 */
+  display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.mentor-main-item-detail-mentorinfo .icon-heart {
+	display: inline-block;
+  width: 11px;
+	height: 9px;
+	background: url('../images/mentors/icon-heart-single.png') no-repeat center center;
+	background-size: 100%;
+	margin-right: 5px;
+}
+
+.mentor-main-item-detail-intro {  /* 导师介绍 */
+  font-size: 12px;
+	color: #919191;
+}
+
+
+/* 导师分割线 */
+.mentor-main-split {
+  display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.mentor-main-split span {
+	display: inline-block;
+	height: 1px;
+}
+.mentor-main-split .split-transparent {
+  min-width: 70px;
+	padding-right: 20px;
+	background: transparent;
+}
+.mentor-main-split .split-solid {
+	background: #d0d0d0;
+	width: 100%;
+}
+
+
+/**
+ * 导师详情页
+*/
+.mentor .mentorDetail-banner {  /* banner */
+  position: relative;
+	top: 0;
+	left: 0;
+	height: 150px;
+	display: flex;
+	justify-content: center;
+  align-items: center;
+}
+.mentor .mentorDetail-banner img {  /* 背景图 */
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	z-index: 1;
+}
+.mentor .mentorDetail-banner-info {  /* 文字容器 */
+  position: relative;
+	top: 0;
+	left: 0;
+	z-index: 2;
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	color: #fff;
+	padding: 0 15px;
+}
+.mentor .mentorDetail-banner-info-avatar {  /* 导师头像 */
+  display: inline-block;
+	min-width: 70px;
+	min-height: 70px;
+	border-radius: 50%;
+	background: url('../images/mentors/mentor1001.png') no-repeat center center;
+	background-size: 100%;
+	margin-right: 20px;
+}
+.mentor .mentorDetail-banner-info-text {  /* 导师文字介绍 */
+  font-size: 16px;
+}
+.mentor .mentorDetail-banner-info-text-sectitle,
+.mentor .mentorDetail-banner-info-text-para { font-size: 12px; }
+
+.mentor .mentorDetail-artileAndAnswer {  /* 帖子和回答容器 */
+  display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 20px 0;
+	margin-bottom: 20px;
+	border-bottom: 3px solid #f1f1f1;
+}
+.mentor .mentorDetail-artileAndAnswer-group {
+  display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.mentor .mentorDetail-artileAndAnswer-group .num { padding-bottom: 5px; }
+.mentor .mentorDetail-artileAndAnswer-group .text {
+	font-size: 12px;
+	color: #616161;
+}
