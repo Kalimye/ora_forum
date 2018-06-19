@@ -82,7 +82,8 @@ body {
 /* input 样式 */
 .welcome .login-container input,
 .welcome .register-container input,
-.findpwd input {
+.findpwd input,
+.resetpwd input {
   width: 209px;
 	height: 37px;
 	border: 1px solid #d1d1d1;

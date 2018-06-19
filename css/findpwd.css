@@ -4,22 +4,27 @@
  * @author rf.wangchn@gmial.com
 */
 
-.findpwd {
+.findpwd,
+.resetpwd {
 	width: 100%;
-	padding-top: 60px;
+	padding-top: 40px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 }
-.findpwd input { padding: 0 20px; }
-.findpwd-verificationCode {
+.resetpwd { position: relative; }
+.findpwd input,
+.resetpwd input { padding: 0 20px; }
+.findpwd-verificationCode,
+.resetpwd-verificationCode {
   width: 266px;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
 	margin-bottom: 25px;
 }
+.resetpwd-verificationCode { margin-bottom: 0; }
 .findpwd-verificationCode input { width: 90px; margin: 0; padding: 0 20px; }
 .findpwd-verificationCode-btn {
   width: 100px;
@@ -35,7 +40,8 @@
 .findpwd-verificationCode-btn.unclickable { background: #d3d3d3; }
 .findpwd-verificationCode-btn:focus { outline: none; }
 
-.findpwd-btn {
+.findpwd-btn,
+.resetpwd-btn {
 	width: 246px;
   height: 37px;
 	line-height: 37px;
@@ -43,5 +49,19 @@
 	border-radius: 19px;
 	background: #ffb600;
 	color: #fff;
+	font-weight: bold;
+	letter-spacing: 2px;
 }
-.findpwd-btn:focus { outline: none; }
+.findpwd-btn:focus,
+.resetpwd-btn:focus { outline: none; }
+
+.resetpwd-tip {
+  position: absolute;
+	top: 0;
+	left: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+.resetpwd-tip-text { color: #ffb600; font-weight: bold; }
