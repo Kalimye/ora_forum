@@ -33,27 +33,27 @@ header {
   color: #919191;
 }
 .mentors .swiper-slide:nth-child(1) {
-  background: url('../images/mentors/mentor1.png') no-repeat center center;
+  background: url('../images/mentors/mentor1001.png') no-repeat center center;
 	background-size: 100%;
 }
 .mentors .swiper-slide:nth-child(2) {
-  background: url('../images/mentors/mentor2.png') no-repeat center center;
+  background: url('../images/mentors/mentor1002.png') no-repeat center center;
 	background-size: 100%;
 }
 .mentors .swiper-slide:nth-child(3) {
-  background: url('../images/mentors/mentor3.png') no-repeat center center;
+  background: url('../images/mentors/mentor1003.png') no-repeat center center;
 	background-size: 100%;
 }
 .mentors .swiper-slide:nth-child(4) {
-  background: url('../images/mentors/mentor4.png') no-repeat center center;
+  background: url('../images/mentors/mentor1004.png') no-repeat center center;
 	background-size: 100%;
 }
 .mentors .swiper-slide:nth-child(5) {
-  background: url('../images/mentors/mentor5.png') no-repeat center center;
+  background: url('../images/mentors/mentor1005.png') no-repeat center center;
 	background-size: 100%;
 }
 .mentors .swiper-slide:nth-child(6) {
-  background: url('../images/mentors/mentor6.png') no-repeat center center;
+  background: url('../images/mentors/mentor1006.png') no-repeat center center;
 	background-size: 100%;
 }
 
