@@ -13,6 +13,7 @@
 	justify-content: center;
 	align-items: center;
 }
+.findpwd { position: relative; }
 .resetpwd { position: relative; }
 .findpwd input,
 .resetpwd input { padding: 0 20px; }
@@ -55,6 +56,8 @@
 .findpwd-btn:focus,
 .resetpwd-btn:focus { outline: none; }
 
+/* 验证提示 */
+.findpwd-tips,
 .resetpwd-tip,
 .resetpwd-verificationTip {
   position: absolute;
@@ -67,3 +70,5 @@
 }
 .resetpwd-tip-text { color: #ffb600; font-weight: bold; }
 .resetpwd-verificationTip span { color: #fd3232; font-weight: bold; }
+.findpwd-tips-verification-text { color: #fd3232; font-weight: bold; }
+.findpwd-tips-verification-text.hidden { display: none; }
