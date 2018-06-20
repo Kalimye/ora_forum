@@ -55,7 +55,8 @@
 .findpwd-btn:focus,
 .resetpwd-btn:focus { outline: none; }
 
-.resetpwd-tip {
+.resetpwd-tip,
+.resetpwd-verificationTip {
   position: absolute;
 	top: 0;
 	left: 0;
@@ -65,3 +66,4 @@
 	width: 100%;
 }
 .resetpwd-tip-text { color: #ffb600; font-weight: bold; }
+.resetpwd-verificationTip span { color: #fd3232; font-weight: bold; }
