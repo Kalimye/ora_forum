@@ -12,7 +12,10 @@
 }
 
 /* Node: 公共样式见 app.css */
-.welcome .login-container { padding-top: 205px; }
+.welcome .login-container {
+  padding-top: 205px;
+	position: relative;
+}
 .welcome .login-container-input {
   position: relative;
 	top: 0;
@@ -75,3 +78,17 @@
 	color: #d2d2d2;
 	font-size: 14px;
 }
+
+.welcome .login-tips {
+	width: 100%;
+  position: absolute;
+	top: 170px;
+	left: 0;
+}
+.welcome .login-tips-verification-text {
+  display: inline-block;
+	width: 100%;
+	color: #fd3232;
+	font-weight: bold;
+}
+.welcome .login-tips-verification-text.hidden { display: none; }
