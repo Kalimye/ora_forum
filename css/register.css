@@ -81,3 +81,18 @@
 	border: 2px solid transparent;
 }
 .welcome .register-container-sex .icon-inner.hidden { display: none; }
+
+/* 验证提示信息 */
+.welcome .register-tips {
+	width: 100%;
+	position: absolute;
+	top: 80px;
+	left: 0;
+}
+.welcome .register-tips-verification-text {
+  display: inline-block;
+	width: 100%;
+	color: #fd3232;
+	font-weight: bold;
+}
+.welcome .register-tips-verification-text.hidden { display: none; }
