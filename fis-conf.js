@@ -19,13 +19,13 @@ fis.match('index.html', {
   release: 'index.html'
 });
 fis.match('**.js', {
-  release: 'forum/$0'
+  release: '$0'
 });
 fis.match('**.css', {
-  release: 'forum/$0'
+  release: '$0'
 });
 fis.match('**.{png,jpg,jpeg}', {
-  release: 'forum/$0'
+  release: '$0'
 });
 
 // fis.match('::packager', {
