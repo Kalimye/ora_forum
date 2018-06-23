@@ -11,6 +11,6 @@
   display: inline-block;
   width: 18px;
   height: 18px;
-  background: url('/forum/images/forum/icon-search.png') no-repeat center center;
+  background: url('../images/forum/icon-search.png') no-repeat center center;
   background-size: 100%;
 }

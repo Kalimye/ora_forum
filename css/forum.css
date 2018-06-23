@@ -109,7 +109,7 @@ header {
   display: inline-block;
   min-width: 104px;
   height: 32px;
-  background: url("/forum/images/forum/icon-sos.png") no-repeat center center;
+  background: url("../images/forum/icon-sos.png") no-repeat center center;
   background-size: 100%;
 }
 .tabs-items-group-text {
