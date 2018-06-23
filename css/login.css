@@ -5,6 +5,11 @@
 */
 
 /* Note: 公共样式见 app.css */
+.welcome .login {
+	height: 100vh;
+  position: relative;
+}
+
 .welcome .login-bg {
 	height: 150px;
 	background: url('../images/login/bg.png') no-repeat center center;
@@ -92,3 +97,9 @@
 	font-weight: bold;
 }
 .welcome .login-tips-verification-text.hidden { display: none; }
+
+.welcome .login-registerBtn {
+  position: absolute;
+	bottom: 0;
+	left: 0;
+}
