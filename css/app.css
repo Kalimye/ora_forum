@@ -118,6 +118,9 @@ body {
 	font-size: 16px;
 	transition: background .3s;
 }
+.welcome .register-container-registerBtn button.unclickable {
+  background: #d3d3d3;
+}
 .welcome .login-container-loginBtn button:focus,
 .welcome .register-container-registerBtn button:focus {
 	outline: none;

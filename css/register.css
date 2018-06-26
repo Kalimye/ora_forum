@@ -3,18 +3,41 @@
  * register.css
  * @author rf.wangchn@gmail.com
 */
+.welcome .register {
+  height: 100vh;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
 .welcome .register-bg {
   height: 74px;
 	background: url('../images/register/bg.jpg') no-repeat center center;
 	background-size: cover;
 }
-.welcome .register-container {
-  padding-top: 104px;
-}
 
 .welcome .register-container input {
 	width: 229px;
   padding: 0 20px;
+}
+
+.welcome .register-container-input {
+  position: relative;
+	top: 0;
+	left: 0;
+}
+.welcome .register-container-errorMsg {
+  position: absolute;
+	bottom: 5px;
+	left: 22px;
+	color: #919191;
+	font-size: 12px;
+}
+.welcome .register-container-registerBtn span {
+  bottom: -18px;
+	left: 0;
+	width: 100%;
 }
 
 /* 获取验证码 */
@@ -81,6 +104,12 @@
 	border: 2px solid transparent;
 }
 .welcome .register-container-sex .icon-inner.hidden { display: none; }
+
+.welcome .register-loginBtn {
+  position: absolute;
+	bottom: 0;
+	left: 0;
+}
 
 /* 验证提示信息 */
 .welcome .register-tips {
