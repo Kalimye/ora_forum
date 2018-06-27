@@ -17,6 +17,7 @@
 	background-size: cover;
 }
 
+.welcome .register-container { position: relative; }
 .welcome .register-container input {
 	width: 229px;
   padding: 0 20px;
@@ -67,6 +68,28 @@
 	background: #d3d3d3;
 	width: 80px;
 }
+
+/* 注册成功后的提示信息 */
+.welcome .register-container-tips {
+  position: absolute;
+  top: -80px;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  color: #616161;
+}
+.welcome .register-container-tips-success {
+  border: 1px solid #dfdfdf;
+  border-radius: 3px;
+  background: #dfdfdf;
+  padding: 10px 15px;
+  opacity: 0;
+  transition: opacity .3s;
+}
+.welcome .register-container-tips-success.hidden { opacity: 0; }
+.welcome .register-container-tips-success.active { opacity: 1; }
 
 /* 性别 */
 .welcome .register-container-sex {
