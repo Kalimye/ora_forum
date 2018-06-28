@@ -23,14 +23,16 @@
 	<div class="login-container-input login-container-verificationCode">
 	  <input class="login-container-verificationCode-input" type="text" placeholder="请输入验证码">
 		<span class="login-container-verificationCode-img">
-		  <img src="forum/images/login/test.png" alt="图片验证码">
+		  <img src="http://wd.jvziqinggan.com/Forum/getVerifyCode" alt="图片验证码">
 		</span>
+		<span class="login-container-errorMsg login-container-verificationCode-errorMsg"></span>
 	</div>
 	<!-- End : 验证码 -->
 	
 	<!-- Start : 登陆按钮 -->
 	<div class="login-container-loginBtn">
 	  <button class="">立即登陆</button>
+		<span class="login-container-errorMsg login-container-loginBtn-errorMsg"></span>
 	</div>
 	<!-- End : 登陆按钮 -->
 
@@ -40,6 +42,12 @@
 	  <span class="login-container-extraInfo-forgetpwd">忘记密码?</span>
 	</div>
 	<!-- End : 游客 / 忘记密码 -->
+
+	<!-- Start : 登陆成功后的提示信息 -->
+	<div class="login-container-input login-container-tips hidden">
+	  <span class="login-container-tips-success text-center">正在登陆，请稍后</span>
+	</div>
+	<!-- End : 登陆成功后的提示信息 -->
 </div>
 
 <button class="login-registerBtn">注册新用户</button>

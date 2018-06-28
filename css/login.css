@@ -54,6 +54,7 @@
 	width: 80px;
 	margin: 0;
 }
+.welcome .login-container-verificationCode img { width: 100px; }
 
 .welcome .login-container-loginBtn {
   width: 269px;
