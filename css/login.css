@@ -97,6 +97,31 @@
   font-size: 12px;
 }
 
+.welcome .login-container-loginErrorMsg-wrap {
+  width: 100%;
+	display: flex;
+	justify-container: center;
+	align-items: center;
+	position: absolute;
+	bottom: 132px;
+	left: 0;
+}
+.welcome .login-container-loginErrorMsg-wrap.hidden { display: none; }
+.welcome .login-container-loginBtn-errorMsg {
+  position: relative;
+	bottom: 0;
+	left: 0;
+	color: #fff;
+	font-size: 12px;
+	background: #00000091;
+	border-radius: 3px;
+	padding: 10px 15px;
+	opacity: 0;
+	margin: 0 auto;
+  transition: all .3s;
+}
+.welcome .login-container-loginBtn-errorMsg.active { opacity: 1; }
+
 .welcome .login-tips {
 	width: 100%;
   position: absolute;
