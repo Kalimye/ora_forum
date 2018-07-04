@@ -9,14 +9,47 @@ header {  /* header 区域 */
 .header-title-text {
   font-size: 17px;
 }
-.header-account {  /* 账户图标 */
+.header-account { /* 账户图标 */
+  width: 18px;
+	height: 18px;
+	position: absolute;
+	right: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.header-account-icon {  /* 账户图标 */
 	width: 18px;
 	height: 18px;
 	line-height: 45px;
-	position: absolute;
-	right: 15px;
 	background: url('../images/common/account.svg') no-repeat center center;
 	background-size: 100%;
+}
+.header-account-menu {  /* 账户菜单 */
+  position: absolute;
+	top: 32px;
+	right: -15px;
+	z-index: 2;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	width: 80px;
+	background: #f1f1f1;
+	opacity: 0;
+	transition: all .3s;
+}
+.header-account-menu.hidden {  /* 隐藏状态的账户菜单 */
+  display: none;
+}
+.header-account-menu.active {  /* 显示状态下的账户菜单 */
+	transition: all .3s;
+  opacity: 1;
+}
+.header-account-menu span {  /* 账户菜单选项 */
+  line-height: 28px;
+	height: 28px;
+	color: #616161;
 }
 
 .mentors {
