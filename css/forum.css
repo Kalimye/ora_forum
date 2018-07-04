@@ -1,18 +1,22 @@
-header {
+header {  /* header 区域 */
   height: 44px;
   line-height: 44px;
   border-bottom: 1px solid #e1e1e1;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
 }
 .header-title-text {
   font-size: 17px;
 }
-.header-login {
-  height: 45px;
+.header-account {  /* 账户图标 */
+	width: 18px;
+	height: 18px;
 	line-height: 45px;
 	position: absolute;
-	top: 0;
 	right: 15px;
-	color: #919191
+	background: url('../images/common/account.svg') no-repeat center center;
+	background-size: 100%;
 }
 
 .mentors {
