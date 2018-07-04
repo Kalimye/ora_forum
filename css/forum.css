@@ -286,3 +286,25 @@ span.user-content-reply-mentor-name {
   color: #919191;
 }
 /* End: 热门提问 */
+
+/* Start: 提示信息 */
+.tips {
+  position: absolute;
+	top: 200px;
+	left: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+.tips.hidden { display: none; }
+.tips-logout {
+  background: #00000091;
+	padding: 10px 15px;
+	border-radius: 3px;
+	color: #fff;
+	opacity: 0;
+	transition: all .3s;
+}
+.tips-logout.active { opacity: 1; }
+/* End: 提示信息 */
