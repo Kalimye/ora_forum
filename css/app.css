@@ -147,7 +147,7 @@ body {
 .conversation {  /* 根容器 */
   padding: 0 15px 10px;
 }
-.conversation .text-justify { color: #313131; }
+.conversation .text-justify { color: #313131; width: 100%; }
 
 .conversation-userinfo {
   display: flex;
@@ -259,6 +259,7 @@ body {
 	align-items: flex-start;
 	padding-bottom: 10px;
 }
+.conversation-answer.hidden { display: none; }
 .conversation .none {
 	display: inline-block;
 	min-width: 32px;
