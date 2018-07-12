@@ -320,7 +320,6 @@ let forum = (function() {
     onClick();
 
     hideQuestionContent(userQuestionContents);
-
   };
 
   return { initModule: initModule };

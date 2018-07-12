@@ -57,9 +57,7 @@ app.shell = (function() {
     forum.initModule(forum_ele, App);
 
     for (let key in $.uriAnchor.makeAnchorMap()) {
-      if (!key) {
-        console.log('not');
-      }
+      if (!key) { console.log('not'); }
     }
 
     onHashchange();
