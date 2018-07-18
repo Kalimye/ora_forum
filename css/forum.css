@@ -285,6 +285,19 @@ span.user-content-reply-mentor-name {
   font-size: 12px;
   color: #919191;
 }
+.tabs-more {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  padding: 10px 0;
+  margin: 10px 0 0;
+  background: #f1f1f1;
+}
+.tabs-more span {
+  letter-spacing: 1px;
+  color: #919191;
+}
 /* End: 热门提问 */
 
 /* Start: 提示信息 */
